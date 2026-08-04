@@ -6,6 +6,7 @@ import {
   Gauge,
   Thermometer,
 } from 'lucide-react';
+import logo from "./assets/logo.webp";
 
 export default function PipingDashboard() {
   const [keranKiri, setKeranKiri] = useState(false);
@@ -78,7 +79,7 @@ export default function PipingDashboard() {
         <div>
           <div className="flex items-center gap-3 mb-6 pb-4 border-b border-[#333]">
             <div className="p-2.5 bg-gradient-to-br from-blue-500 to-blue-700 rounded-xl text-white shadow-lg shadow-blue-500/30">
-              <Activity className="w-6 h-6" />
+              <img src={logo} className="w-6 h-6 rounded-full" />
             </div>
             <div>
               <h1 className="font-bold text-base tracking-wide text-white">SmartTap</h1>
