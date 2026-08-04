@@ -239,11 +239,7 @@ export default function PipingDashboard() {
           </svg>
         </div>
 
-        <div className="flex justify-between items-center text-xs font-mono text-slate-300 font-semibold pt-2">
-          <span>• TANKI KAPASITAS: 1000 L</span>
-          <span>• SIRKULASI SIKLUS: {anyOpen ? 'AKTIF (LOOP CLOSED)' : 'MATI (LOOP OPEN)'}</span>
-          <span>• COOLING TANGKI: READY</span>
-        </div>
+        
       </main>
     </div>
   );
