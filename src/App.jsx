@@ -9,7 +9,7 @@ import {
 
 export default function PipingDashboard() {
   const [keranKiri, setKeranKiri] = useState(false);
-  const [keranKanan, setKeranKanan] = useState(true);
+  const [keranKanan, setKeranKanan] = useState(false);
 
   const anyOpen = keranKiri || keranKanan;
 
